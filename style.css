@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 25px;
+    font-family: "Bebas Neue", arial;
+    color: rgb(255,255,255);
+    background: rgb(93,62,143);
+    background: linear-gradient(90deg, rgba(93,62,143,1) 0%, rgba(12,26,62,1) 46%, rgba(29,112,129,1) 100%);
+}
+
+.main{
+    max-width: 1200px;
+    margin: 100px auto;
+    letter-spacing: 2.5px;
+}
+
+.header{
+    margin-left: -28%;
+}
+
+.add-note{
+    border: none;
+    outline: none;
+    padding: 9px 30px;
+    background-color: rgb(255,255,255);
+    border-radius: 40px 0 40px 0;
+}
+
+.note{
+    background-color: rgb(255, 255, 224);
+    padding: 16px;
+    margin: 8px;
+    border-radius: 15px;
+    width: 250px;
+    height: 300px;
+    color: rgb(0,0,0);
+}
+
+.notes{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.note-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn-delete{
+    border: none;
+    outline: none;
+    padding: 8px 10px;
+    border-radius: 20px;
+}
